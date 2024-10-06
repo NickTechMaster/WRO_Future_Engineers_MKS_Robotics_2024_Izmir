@@ -1,8 +1,7 @@
-Infos zum GitHub-Aufbau
+Infos on the GitHub Structure
 
-Unsere GitHub-Dokumentation ist gemäß dem Bewertungsbogen der WRO-Kategorie Future Engineers aufgebaut. Unter den Punkten 1-5 finden Sie Informationen und Materialien, die den Bewertungskriterien entsprechen. Darunter, unter den Punkten a-f, finden Sie weitere wichtige Informationen aus unserer Sicht.
+Our GitHub documentation is structured according to the evaluation criteria of the WRO Future Engineers category. Under points 1-5, you will find information and materials that correspond to the evaluation criteria. Below that, under points a-f, we provide additional important information from our perspective.
 
-Einleitung
+Introduction
 
-Wir sind Nico und Julian aus dem Saarland und nehmen in diesem Jahr erneut als Team der Maximilian-Kolbe-Schule Wiebelskirchen an der WRO-Kategorie Future Engineers teil. Im letzten Jahr haben wir erfolgreich am Wettbewerb teilgenommen und den ersten Platz im Vorentscheid in Waldkirch/Freiburg belegt. Dadurch haben wir uns für das Deutschland-Finale in Chemnitz qualifiziert, wo wir den 4. Platz erreicht haben. Darüber hinaus haben wir bereits an vielen anderen Wettbewerben teilgenommen, darunter die "Robonight" in Saarbrücken, bei der wir zweimal den zweiten Platz belegt haben, und die "make-it", bei der wir den ersten Platz erreicht haben. Alles begann jedoch mit der WRO, bei der wir im Jahr 2019 erstmals in der Kategorie "Mission" teilgenommen haben.
-
+We are Nico and Julian from Germany (Saarland), and this year we are once again participating as a team from Maximilian-Kolbe-Schule Wiebelskirchen in the WRO Future Engineers category. Last year, we successfully competed in the event, securing first place in the preliminary round in Waldkirch/Freiburg. This qualified us for the Germany Finals in Chemnitz, where we finished in 4th place. In addition, we have participated in many other competitions, including the "Robonight" in Saarbrücken, where we placed second twice, and the "make-it" competition, where we took first place. However, it all started with the WRO, where we first competed in the "Mission" category in 2019.

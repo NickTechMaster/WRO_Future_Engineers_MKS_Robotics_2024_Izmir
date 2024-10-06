@@ -1,19 +1,20 @@
-In diesem Ordner findet man die Programierung des Roboterautos
+**In this folder, you will find the programming for the robotic car.**
 
+We are using two different Raspberry Pis, so we have a total of four scripts: two for the opening race and two for the obstacle race.
 
-Wir haben zwei verschiedene Raspberrypis also haben wir insgesamt vier scripte zwei für das Eröffnungsrennen und zwei für das Hindernisrennen
+- **f = driving Raspberry Pi**
+- **k = camera Raspberry Pi**
 
-f = fahrender Raspberrypi
-k = Kamera Raspberrypi
+### Programming for the Opening Race
 
-Programmierung Eröffnungsrennen
+In this year's opening race, we are using the basic idea from last year. While driving, the robot continuously measures the values from the ultrasonic sensors located at the front, left, and right. Based on the values from the left and right sensors, the robot calculates the center point and steers the autonomous car proportionally to return it to the middle as efficiently as possible. This means that the further the car is from the center, the stronger it steers to get back to it.
 
-Beim diesjährigen Eröffnungsrennen verwenden wir die Grundidee vom letzten Jahr. Während der Fahrt misst der Roboter kontinuierlich die Werte der Ultraschallsensoren, die vorne, links und rechts angeordnet sind. Basierend auf den Werten des linken und rechten Sensors berechnet der Roboter den Mittelpunkt und steuert das autonome Auto proportional, um es bestmöglich in die Mitte zurückzubringen. Das bedeutet, je weiter das Auto von der Mitte entfernt ist, desto stärker lenkt es, um diese Mitte wieder zu erreichen.
+For example: If the left ultrasonic sensor reads 10 and the right ultrasonic sensor reads 50, the left sensor is showing a very short distance, meaning the car is quite far to the left near the barrier. If we take the sum of both values, we get 60. Half of that is 30. When both sensors read 30, we know that the robot is exactly in the center. To reach this center, we calculate the percentage difference and steer accordingly.
 
-Ein Beispiel: Der linke Ultraschallsensor zeigt einen Wert von 10, der rechte Ultraschallsensor einen Wert von 50. Hier zeigt der linke Sensor eine sehr kurze Entfernung, was bedeutet, dass sich das Auto ziemlich weit links an der Bande befindet. Wenn wir nun die Summe der beiden Werte nehmen, erhalten wir die Zahl 60. Die Hälfte davon ist 30. Wenn beide Sensoren den Wert 30 ausgeben, wissen wir, dass der Roboter genau in der Mitte ist. Um diese Mitte zu erreichen, berechnen wir den Prozentsatz und lenken entsprechend.
+Since this process is repeated very quickly and frequently, the car may sometimes sway slightly, but this is corrected by the system. To ensure the car stops perfectly after 3 laps, it increases a variable each time it takes a turn. We detect a turn when the color sensor detects orange or blue. The upper Raspberry Pi, which receives this data, sends it to the driving Raspberry Pi. The driving Raspberry Pi counts 12 turns and then continues until the front ultrasonic sensor detects a certain distance, at which point the car stops.
 
-Da dieser Prozess sehr schnell und häufig wiederholt wird, kann es manchmal zu einem leichten Schwanken kommen, das aber vom Auto ausgeglichen wird. Um am Ende der 3 Runden perfekt anzuhalten, erhöht das Auto eine Variable, wenn es eine Kurve fährt. Wir erkennen eine Kurve, wenn der Farbsensor orange oder blau erkennt. Der obere Raspberrypi der diese Daten empfängt sendet diese dann an den fahrenden Raspberry pi dieser zählt dann 12 Kurven und danch fährt er noch bis der vordere Ultrschall einen gewissen Abstand hat, und dann bleibt er stehen.
+### Programming for the Obstacle Race
 
-Programmierung Hindernisrennen
+For the obstacle race, we use the programming from the opening race as the foundation, since we also need to drive autonomously here. Only when the camera detects a colored block does the upper Raspberry Pi send a signal to the driving Raspberry Pi, which then performs a corresponding evasive maneuver. We go around red blocks to the right and around green blocks to the left. Additionally, we detect turns using the color sensor, where we perform a realignment maneuver.
 
-Beim Hindernisrennen nutzen wir die Programmierung vom Eröffnungsrennen als Grundlage, da wir auch hier autonom fahren müssen. Nur wenn die Kamera einen bunten Stein erkennt, sendet der obere Raspberrypi ein Signal an den fahrenden Raspberrypi dieser führt dann ein demenstsprechendes Ausweichmannöver aus. Bei roten Steinen fahren wir rechts herum, bei grünen Steinen links herum. Desweiteren erkennen wir über den Farbsensor Kurven, dort führen wir dann nämlich ein Ausrichtungsmannöver aus. Für die Farberkennung der Klötze verwenden wir Filter/Masken, um nur die Farben zu sehen und andere Fehler, die die Kamera erkennen könnte, auszublenden. Dort erkennen wir dann Kontouren. Zum Einstellen der Farbwerte der Masken haben wir uns ein extra script mit Schiebereglern geschrieben.
+For color detection of the blocks, we use filters/masks to only see the relevant colors and filter out other potential errors the camera might detect. We then detect the contours of the objects. To adjust the color values of the masks, we wrote an additional script with sliders.

@@ -1,12 +1,7 @@
-Hier findet man die Videos zu unserem Roboterauto.
-Beim Eröffnungsrennen gibt es viele verschiedene komplette rennen, 
-und beim Hinddernisrennen gibt es mehrere zusammenschnitte, damit man das Auto bei mehreren Varianten des Spielfeldes sieht.
-Man kann sich die Videos auf Youtube ansehen oder in einen Onedrive ordner.
+Here you can find the videos of our robot car. For the opening race, there are many different complete races, and for the obstacle race, there are several compilations so that you can see the car in different versions of the playing field. You can watch the videos on YouTube or in a OneDrive folder.
 
-Hindernisrennen: https://youtu.be/EGzyYatGJLY
+Obstacle race: YouTube video
+Opening race: YouTube video
+Trailer: YouTube video
+OneDrive folder: OneDrive link
 
-Eröffnungsrennen: https://youtu.be/GJWZd2VfwI8
-
-Trailer: https://youtu.be/SM726_hT5e8
-
-Onedrive: https://1drv.ms/f/s!AowxGgSzin8XhORO7wZXVeUjV3Ozdg?e=KX1XqF

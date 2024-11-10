@@ -13,8 +13,8 @@ Our GitHub documentation is structured according to the evaluation criteria of t
 )
 [a. 3d printing](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/a.%203d%20printing
 )
-[b. diagrams]([www.google.de](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/b.%20diagrams
-))
+[b. diagrams](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/b.%20diagrams
+)
 [c. circuit diagram](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/c.%20circuit%20diagram
 )
 [d. Code](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/d.%20Code

@@ -1,7 +1,8 @@
 Infos on the GitHub Structure
 
 Our GitHub documentation is structured according to the evaluation criteria of the WRO Future Engineers category. Under points 1-5, you will find information and materials that correspond to the evaluation criteria. Below that, under points a-f, we provide additional important information from our perspective.
-[1. Motorrizaztion](www.google.de)
+[1. Motorrizaztion](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/1.%20Motorization
+)
 [2. Energy & Sensors](www.google.de)
 [3. Obstacle Race](www.google.de)
 [4. Photos](www.google.de)

@@ -1,3 +1,5 @@
+![logo_Mks_Robotics](https://github.com/user-attachments/assets/29dc11b5-066c-4d60-894b-bcc02e98c525)
+
 Infos on the GitHub Structure
 
 Our GitHub documentation is structured according to the evaluation criteria of the WRO Future Engineers category. Under points 1-5, you will find information and materials that correspond to the evaluation criteria. Below that, under points a-f, we provide additional important information from our perspective.

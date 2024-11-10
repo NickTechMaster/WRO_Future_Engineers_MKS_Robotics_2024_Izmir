@@ -1,6 +1,18 @@
 Infos on the GitHub Structure
 
 Our GitHub documentation is structured according to the evaluation criteria of the WRO Future Engineers category. Under points 1-5, you will find information and materials that correspond to the evaluation criteria. Below that, under points a-f, we provide additional important information from our perspective.
+[1. Motorrizaztion](www.google.de)
+[2. Energy & Sensors](www.google.de)
+[3. Obstacle Race](www.google.de)
+[4. Photos](www.google.de)
+[5.Videos](www.google.de)
+[a. 3d printing](www.google.de)
+[b. diagrams](www.google.de)
+[c. circuit diagram](www.google.de)
+[d. Code](www.google.de)
+[e. construction manual](www.google.de)
+[f. other](www.google.de)
+
 
 Introduction
 

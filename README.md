@@ -1,18 +1,28 @@
 Infos on the GitHub Structure
 
 Our GitHub documentation is structured according to the evaluation criteria of the WRO Future Engineers category. Under points 1-5, you will find information and materials that correspond to the evaluation criteria. Below that, under points a-f, we provide additional important information from our perspective.
-[1. Motorrizaztion](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/1.%20Motorization
+[1. Motorization](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/1.%20Motorization
 )
-[2. Energy & Sensors](www.google.de)
-[3. Obstacle Race](www.google.de)
-[4. Photos](www.google.de)
-[5.Videos](www.google.de)
-[a. 3d printing](www.google.de)
-[b. diagrams](www.google.de)
-[c. circuit diagram](www.google.de)
-[d. Code](www.google.de)
-[e. construction manual](www.google.de)
-[f. other](www.google.de)
+[2. Energy & Sensors](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/2.%20Energy%20%26%20Sensors
+)
+[3. Obstacle Race](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/3.%20Obstacle%20Race%20
+)
+[4. Photos](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/4.%20Photos
+)
+[5.Videos](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/5.%20Videos
+)
+[a. 3d printing](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/a.%203d%20printing
+)
+[b. diagrams]([www.google.de](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/b.%20diagrams
+))
+[c. circuit diagram](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/c.%20circuit%20diagram
+)
+[d. Code](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/d.%20Code
+)
+[e. construction manual](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/e.%20construction%20manual
+)
+[f. other](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/f.%20other
+)
 
 
 Introduction

@@ -1,4 +1,5 @@
-![logo_Mks_Robotics](https://github.com/user-attachments/assets/a4c5bce1-2a37-4a30-8010-3defcc8320b5)
+![banner_Mks_Robotics](https://github.com/user-attachments/assets/80e30a0f-3d4a-4f25-9e0c-ad83e6004453)
+
 
 
 Infos on the GitHub Structure

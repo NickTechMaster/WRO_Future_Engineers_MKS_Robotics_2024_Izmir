@@ -1,4 +1,5 @@
-![banner_Mks_Robotics](https://github.com/user-attachments/assets/80e30a0f-3d4a-4f25-9e0c-ad83e6004453)
+![banner_Mks_Robotics-DownScaled](https://github.com/user-attachments/assets/e91fcf5e-80b3-4939-858e-ecf78c4c6236)
+
 
 
 

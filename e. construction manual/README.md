@@ -1,27 +1,5 @@
-**Here you will find a construction manual for our car. It shows step by step how we assembled our car.**
 
-**Technical Components:**
-
-- Raspberry Pi 4
-- Raspberry Pi 3
-- 4x HC-SR04 ultrasonic sensors
-- Motor
-- Motor controller (L298N)
-- 18V Bosch drill battery
-- Voltage converter from 18V to 5V
-- Button
-- Switch
-- 2x LED lamps
-- Jumper wires / other cables
-- USB webcam (Logitech Brio 500)
-- Various resistors
-- Servo motor (MG996R)
-
-
-
-
-
-# ⚙️ Hardware & Components ⚙️
+###  Hardware & Components 
 
 | Quantity | Component                               | Price per Unit | Total Price |
 |----------|-----------------------------------------|----------------|-------------|
@@ -44,25 +22,17 @@
 
 ---
 
-### 🛠️ Other Components:
+###  Other Components:
 
 | Component                             | Price   |
 |---------------------------------------|---------|
 | [Metal Baseplate / Chassi](https://funduinoshop.com/diy-werkstatt/bausaetze/chassis/yfrobot-chassis-kit-mit-lenkachse)  | $50   |
 | [Metal Standoffs](https://www.amazon.com/-/de/dp/B06Y5TJXY1/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1DRWOS518Z1OI&dib=eyJ2IjoiMSJ9.4rGRj3Rhs7qbv27W1Pwo9Hwdc_9R5AEErgMUp4I2UhBZIAU3Yhpl8djU1ZK_abFb_UVIRTTjofxITB2sJf6Uqadtz2Fm3rATTG-kTpdQbs4-Fid0x8GTZfEdc-BceX9SNuuolijmh7x9Fj7aYA8yuclsxF5_hgMVhUwsnu8AoU0R1kQAReyBUMStQJAHMMiN9JFG6RAZuui7DDukJzoj4VDp3W8T_DC_1lTb6pJRi6tm5FSOtiYG41ZeZh7g_qYtzw9qInQNpPuCNFTpPK_3SzYLNxaReL6HbrY58iENVHM.PVKNc9v5kssJN2VK6X6aYyrHRJVF2UPkPCITnXmV_CE&dib_tag=se&keywords=metal%2Bstands%2Bm3&qid=1731244332&sprefix=metal%2Bstands%2Bm%2Caps%2C242&sr=8-1&th=1)  | $15   |
 | [Self-modeled 3D Prints from a 3D Printer](https://www.amazon.com/-/de/dp/B0D421Q2Q2/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GPVONWTP36HM&dib=eyJ2IjoiMSJ9.MHelaoH7c41HZbj1LqWM6fZ8pcWt8eHClmSr37vZZGlrvEFkYIf7y1WqkWa5zzPYyDL_Kt85a_LGAeQrDS6w8J-PDSO7o61g08ElLA6biRkrS2s3lMJTr4iXXK766SGM3RM5SjOVMlt4naO3D5ouQzhVmnopYVvuUzEBAkowtykMKbI1ywCViYlDpxt9qXYLdsD1D2qJ0aihABtQtDZuG0kj11uh__zKAKcP2igJC7U.UHIe6RALVnZpCLJwDbNMs2CRN1mmfCdurHuUoqtVFRk&dib_tag=se&keywords=filament+1k&qid=1731244367&sprefix=filament+1k%2Caps%2C271&sr=8-4) | $13   |
-| [Various Screws](https://www.amazon.com/-/de/dp/B0BMQFHDBH/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1L2JXKIISI5O7&dib=eyJ2IjoiMSJ9.YdekpzHmrUtAo9ohe8Hopjih0ebReTECCoWIsnPCAA5G-dXgu0pME28c0ENXkEmsYPZOiZ6Eaz_CshUspEXxC8BSvLcnZatdBYGMqby9VesFuNNAdpvWXN8qiPrA1pTZYvs4f0l97ynD5NOxQ9rOzkzKDymLbWuBxKOWEkHwJvDV6BFhbvegVQntyiI56OwAgS8k9UTa7UvXcg1mTp_OzjGeCtTZh7UcA9vtDUPJtec.LXp5KDD5IJCRROhLoNES8ZiktiekJbXya2nolaJ1z4w&dib_tag=se&keywords=screws+m3&qid=1731244397&sprefix=screws+m%2Caps%2C238&sr=8-3)    | &10   |
+| [Various Screws](https://www.amazon.com/-/de/dp/B0BMQFHDBH/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1L2JXKIISI5O7&dib=eyJ2IjoiMSJ9.YdekpzHmrUtAo9ohe8Hopjih0ebReTECCoWIsnPCAA5G-dXgu0pME28c0ENXkEmsYPZOiZ6Eaz_CshUspEXxC8BSvLcnZatdBYGMqby9VesFuNNAdpvWXN8qiPrA1pTZYvs4f0l97ynD5NOxQ9rOzkzKDymLbWuBxKOWEkHwJvDV6BFhbvegVQntyiI56OwAgS8k9UTa7UvXcg1mTp_OzjGeCtTZh7UcA9vtDUPJtec.LXp5KDD5IJCRROhLoNES8ZiktiekJbXya2nolaJ1z4w&dib_tag=se&keywords=screws+m3&qid=1731244397&sprefix=screws+m%2Caps%2C238&sr=8-3)    | $10   |
 | [Cable Ties](https://www.amazon.com/-/de/dp/B08TVLYB3Q/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=W2C1NCCH5JFS&dib=eyJ2IjoiMSJ9.h9TpTr5-aOVSnYPMexRs1VE37_mN8eTM-h-qz9kALdK-4KrLdaYBLDO8TnsLhpLp3-Ceb8eBdxWjM5QB-lItbq5_KXsUYCCHLoZnsZECI1iW6c6zonadO40j-MJG023jrJektHdiSafgCtOQkxe75cSOdsr7RpxSxdgvo1Ybd-30EZtrJ6sKZ_Iq8kaRwNqFG2H_3f5j7CYn_VCgqEK98NWt5_jdy2zsi5La_eF8sXE.Sv785j23sR_vROWQOy4VNttKBzhHVtj28f_ooZmmtds&dib_tag=se&keywords=cable+Ties&qid=1731244433&sprefix=cable+ties%2Caps%2C315&sr=8-3)       | $5   |
 | [Hot Glue / Super Glue / Metal Glue](https://www.amazon.com/-/de/dp/B09XY1WDTX/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1KGRM2DAUH3LZ&dib=eyJ2IjoiMSJ9.RT2mM8ttSkNNPnKt75SYGSdQTARxdqkiJsze78kKXhN9xhIiXriH3q5YZ5ucBfAIJtsoKz92zEfzxBZmMHhhO8QlxQGZF-V9LPqb1Y3H4Qcr8SwIvVDlLt3IUu2HUpRrnE0aE8zzYo1aNkEikEBAGHUJldu71ZP2e8YNMRoxG3jBYic6VTOvxBfmuyyJWvDSXXh6oglXZONLuESBO0D8JMrV_NCdPj4yWgsIfu5VzE6Pa-1ncuOi9tU6vsits5NItLJS5KgVsJn2r3p-CpmCGQyCXI7Y5_Ky6KrmVccW8gA.u61LCuZTbI9ayVzK2OR1P3MvcXAXQrF8J_E8FVCys3g&dib_tag=se&keywords=Hot+Glue+%2F+Super+Glue+%2F+Metal+Glue&qid=1731244459&sprefix=hot+glue+%2F+super+glue+%2F+metal+glue%2Caps%2C392&sr=8-1) | $10   |
 | [Heat Shrink Tubing](https://www.amazon.com/-/de/dp/B0BG6V4HV4/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.cJ5517VLS3-3VE6l5W55xSWKGeE1051iEiqmAFc6h5Ym6dItU_Ai2hdfrkv8LRfoetRytJy_Ki-OuSWMYxwzPv_PurpErzRXLc3IDH_B3Oezqir4z9Pd8IfSly3fvRjq_sZGtaXiiNvWWOPAc07DWGKGCmsGZN7XDm-oRGm1roBRw19nwVj2NHJ32MQzHH1hvI90sHh_wGgFe40zxJNUwpbLnidHEPGP08MNI9Mv1gw.To9hz6PBoSlo2USUSiKCstSNHZBeA0dIzjlUc9NYCkA&dib_tag=se&keywords=Heat%2BShrink%2BTubing&qid=1731244505&sr=8-4&th=1) | $5   | 
 
----
-**Other Components:**
 
-- Metal baseplate
-- Metal standoffs
-- Self-modeled 3D prints from a 3D printer
-- Various screws
-- Cable ties
-- Hot glue / super glue / metal glue
-- Heat shrink tubing
+

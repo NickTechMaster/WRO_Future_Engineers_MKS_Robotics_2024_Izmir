@@ -1,4 +1,5 @@
 **Motorization**
+
 We used a Funduino kit as the foundation, specifically designed for Future Engineers. However, from this kit, we only used the base plates, distance sleeves, and the steering mechanism. The exact dimensions and measurements of the plates, screws, and other components can be found in the assembly instructions (e. Assembly Instructions).
 
 **Steering**  

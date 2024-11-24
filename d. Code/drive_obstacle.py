@@ -102,6 +102,8 @@ while True:
         p_s_c.start(servo_cam_mitte)
         print("Button pressed, starting motors and servos.")
         break
+    else:
+        pass
 
 # Initialize control variables
 countdown_2 = 25

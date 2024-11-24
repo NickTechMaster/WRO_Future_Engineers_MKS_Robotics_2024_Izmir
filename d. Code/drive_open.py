@@ -1,3 +1,4 @@
+# Import necessary libraries
 import RPi.GPIO as GPIO   
 import time
 from gpiozero import Button, LED
@@ -123,7 +124,9 @@ while True:
         p_s.start(60)
         print("Start")
         break
-
+    else:
+        pass
+        
 # Set initial servo duty cycle
 p_s.ChangeDutyCycle(60)
 

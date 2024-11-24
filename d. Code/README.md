@@ -2,8 +2,8 @@
 
 We are using two different Raspberry Pis, so we have a total of four scripts: two for the opening race and two for the obstacle race.
 
-- **f = driving Raspberry Pi**
-- **k = camera Raspberry Pi**
+- **drive = driving Raspberry Pi**
+- **cam = camera Raspberry Pi**
 
 ### Programming for the Opening Race
 

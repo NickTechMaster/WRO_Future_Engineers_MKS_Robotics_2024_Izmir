@@ -30,9 +30,6 @@ Our GitHub documentation is structured according to the evaluation criteria of t
 [b. diagrams](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/b.%20diagrams
 )<br>
 
-[c. circuit diagram](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/c.%20circuit%20diagram
-)<br>
-
 [d. Code](https://github.com/NickTechMaster/WRO_Future_Engineers_MKS_Robotics_2024_Izmir/tree/main/d.%20Code
 )<br>
 
